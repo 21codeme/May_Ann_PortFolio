@@ -34,7 +34,7 @@ export function Assessment() {
               </div>
               <div className='border border-pink-200 rounded-lg p-6 bg-white'>
                 <p className='text-pink-600 text-sm mb-2'>Supervisor</p>
-                <p className='text-pink-900 text-lg font-semibold'>Ms. Ronalyn C. Francisco</p>
+                <p className='text-pink-900 text-lg font-semibold'>Anniezeth A. Antolin, RL, MLIS</p>
               </div>
               <div className='md:col-span-2 border border-pink-200 rounded-lg p-6 bg-white'>
                 <p className='text-pink-600 text-sm mb-2'>Internship Period</p>
@@ -128,7 +128,7 @@ export function Assessment() {
               </div>
               <div>
                 <p className='text-pink-900 font-bold mb-1'>Supervisor</p>
-                <p className='text-pink-700'>Ms. Ronalyn C. Francisco</p>
+                <p className='text-pink-700'>ANNIEZETH A. ANTOLIN, RL, MLIS</p>
               </div>
               <div>
                 <p className='text-pink-900 font-bold mb-1'>Student Internship Coordinator</p>

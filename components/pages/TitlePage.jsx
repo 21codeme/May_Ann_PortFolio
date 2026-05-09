@@ -346,7 +346,7 @@ export function TitlePage({ setCurrentPage }) {
               
               <p>I am also grateful to the OMSC College Library | Learning and Innovation Center, Labangan San Jose for giving me the opportunity to be part of your team. Being exposed to actual office operations allowed me to understand how proper records management contributes to an organized and efficient workplace.</p>
               
-              <p>To my supervisor, <span className='font-semibold text-pink-900'>Ms. Ronalyn C. Francisco</span>, thank you for your guidance and for trusting me with responsibilities that helped me grow. Your support pushed me to become more responsible and attentive in my work.</p>
+              <p>To my supervisor, <span className='font-semibold text-pink-900'>Anniezeth A. Antolin, RL, MLIS</span>, thank you for your guidance and for trusting me with responsibilities that helped me grow. Your support pushed me to become more responsible and attentive in my work.</p>
               
               <p>I would also like to thank my family for their constant encouragement and support throughout this journey.</p>
               
