@@ -40,19 +40,19 @@ export function Introduction({ section }) {
 
             <div className='bg-pink-100/50 border border-pink-50 rounded-xl p-5 sm:p-6'>
               <p className='text-pink-700 text-sm sm:text-base leading-relaxed mb-5'>
-                During my internship at the OMSC College Library | Learning and Innovation Center, Labangan San Jose, I experienced actual record management operations and administrative responsibilities.
+                During my internship at the OMSC College Library | Learning and Innovation Center, Labangan San Jose, I experienced actual library operations and administrative responsibilities.
                 It gave me the opportunity to apply my organizational skills in a real working environment
-                while understanding the importance of accuracy, proper documentation, and efficiency in handling records management and information systems.
+                while understanding the importance of accuracy, proper documentation, and efficiency in handling library materials, cataloging, and information services.
               </p>
 
               <p className='text-pink-900 font-semibold text-sm sm:text-base mb-3'>Key Tasks:</p>
               <ul className='space-y-2'>
                 {[
-                  'Scanned and digitized records',
-                  'Labeled and covered file boxes for proper storage',
-                  'Transported medical records from the clinic to the records office',
-                  'Organized records alphabetically based on the names of record owners',
-                  'Supporting daily administrative and record management tasks',
+                  'Assisted in cataloging and processing library materials',
+                  'Shelved and organized books using the Dewey Decimal Classification system',
+                  'Assisted patrons at the circulation desk with borrowing and returning materials',
+                  'Conducted shelf reading and re-shelving of misplaced materials',
+                  'Supported daily administrative and library operations',
                 ].map((task) => (
                   <li key={task} className='flex items-start gap-2 text-pink-700 text-sm sm:text-base'>
                     <span className='mt-1.5 w-1.5 h-1.5 rounded-full bg-pink-600 shrink-0'></span>
@@ -70,7 +70,7 @@ export function Introduction({ section }) {
 
             <div className='bg-pink-100/50 border border-pink-50 rounded-xl p-5 sm:p-6'>
               <p className='text-pink-700 text-sm sm:text-base leading-relaxed mb-5'>
-                All in all, the internship aims to train the student in real-world Records Office operations by developing organizational, administrative, and professional skills in handling record management, documentation, and information systems within an actual workplace environment.
+                All in all, the internship aims to train the student in real-world library operations by developing organizational, administrative, and professional skills in handling library materials, cataloging, circulation services, and information management within an actual library environment.
               </p>
 
               <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
@@ -83,8 +83,8 @@ export function Introduction({ section }) {
                       </svg>
                     </div>
                     <div>
-                      <p className='text-pink-900 font-semibold text-sm mb-1'>Record Digitization and Scanning</p>
-                      <p className='text-pink-500 text-xs leading-relaxed'>To gain hands-on experience in scanning and digitizing paper records, ensuring accuracy and proper documentation standards in the record management process.</p>
+                      <p className='text-pink-900 font-semibold text-sm mb-1'>Library Cataloging and Processing</p>
+                      <p className='text-pink-500 text-xs leading-relaxed'>To gain hands-on experience in cataloging, stamping, labeling, and processing newly acquired library materials, ensuring accuracy and proper documentation standards.</p>
                     </div>
                   </div>
                 </div>
@@ -98,8 +98,8 @@ export function Introduction({ section }) {
                       </svg>
                     </div>
                     <div>
-                      <p className='text-pink-900 font-semibold text-sm mb-1'>File Organization and Management</p>
-                      <p className='text-pink-500 text-xs leading-relaxed'>To develop skills in organizing records alphabetically, properly labeling and covering file boxes, and maintaining systematic storage systems for efficient retrieval.</p>
+                      <p className='text-pink-900 font-semibold text-sm mb-1'>Shelf Organization and Management</p>
+                      <p className='text-pink-500 text-xs leading-relaxed'>To develop skills in organizing library materials using the Dewey Decimal Classification system, conducting shelf reading, and maintaining systematic arrangement for efficient retrieval.</p>
                     </div>
                   </div>
                 </div>
@@ -114,8 +114,8 @@ export function Introduction({ section }) {
                       </svg>
                     </div>
                     <div>
-                      <p className='text-pink-900 font-semibold text-sm mb-1'>Medical Records Handling</p>
-                      <p className='text-pink-500 text-xs leading-relaxed'>To understand the importance of confidentiality and proper handling of sensitive medical records while developing safe transport and storage practices.</p>
+                      <p className='text-pink-900 font-semibold text-sm mb-1'>Circulation Desk Assistance</p>
+                      <p className='text-pink-500 text-xs leading-relaxed'>To develop skills in assisting library patrons with borrowing and returning materials, managing circulation records, and providing reference and reader assistance services.</p>
                     </div>
                   </div>
                 </div>
@@ -208,9 +208,8 @@ export function Introduction({ section }) {
             <div className='bg-pink-100/50 border border-pink-50 rounded-xl p-5 sm:p-6'>
               <p className='text-pink-700 text-sm sm:text-base leading-relaxed mb-5'>
                 The internship was conducted at the OMSC College Library | Learning and Innovation Center, Labangan San Jose,
-                where the student was assigned to assist in managing record systems, scanning and digitizing documents, organizing files,
-                and handling medical record transportation. It provided hands-on
-                experience in real record management operations and improved understanding of administrative and documentation workflows.
+                where the student was assigned to assist in library operations including cataloging, circulation services, shelf organization,
+                and administrative support. It provided hands-on experience in real library operations and improved understanding of information management and documentation workflows.
               </p>
 
               <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
@@ -244,8 +243,8 @@ export function Introduction({ section }) {
                     </div>
                     <div>
                       <p className='text-pink-600 font-semibold text-sm mb-1'>Place of Internship</p>
-                      <p className='text-pink-900 text-sm font-medium'>Occidental Mindoro State College – San Jose Campus</p>
-                      <p className='text-pink-500 text-xs mt-0.5'>Records Office</p>
+                      <p className='text-pink-900 text-sm font-medium'>OMSC College Library | Learning and Innovation Center</p>
+                      <p className='text-pink-500 text-xs mt-0.5'>Labangan San Jose, Occidental Mindoro</p>
                     </div>
                   </div>
                 </div>
@@ -260,8 +259,8 @@ export function Introduction({ section }) {
                     </div>
                     <div>
                       <p className='text-pink-600 font-semibold text-sm mb-1'>Role</p>
-                      <p className='text-pink-900 text-sm font-medium'>Intern / Records Management Assistant</p>
-                      <p className='text-pink-500 text-xs mt-0.5'>Records Office</p>
+                      <p className='text-pink-900 text-sm font-medium'>Intern / Library Assistant</p>
+                      <p className='text-pink-500 text-xs mt-0.5'>OMSC College Library</p>
                     </div>
                   </div>
                 </div>
@@ -293,7 +292,7 @@ export function Introduction({ section }) {
                     </div>
                     <div>
                       <p className='text-indigo-400 font-semibold text-sm mb-1'>Work Environment</p>
-                      <p className='text-pink-700 text-sm leading-relaxed'>Onsite office environment handling record management, digitization, filing, and administrative tasks in a structured Records Office setting.</p>
+                      <p className='text-pink-700 text-sm leading-relaxed'>Onsite library environment handling cataloging, circulation services, shelf organization, and administrative tasks in a structured library setting.</p>
                     </div>
                   </div>
                 </div>
